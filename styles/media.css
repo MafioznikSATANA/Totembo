@@ -1,0 +1,21 @@
+@media (max-width: 1024px) {
+    .section__one-card {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section__one-image {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .section__one-content {
+        grid-template-columns: 1fr;
+    }
+
+    .section__one-card:nth-child(even) {
+        grid-row: initial;
+        grid-column: initial;
+    }
+}

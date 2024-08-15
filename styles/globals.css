@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F1F1;
+    color: #000000;
+    font-family: "Montserrat";
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+button:focus-visible {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1536px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
